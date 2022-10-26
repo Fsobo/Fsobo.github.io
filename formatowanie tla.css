@@ -1,15 +1,16 @@
 :root {
-    text-align: center;
+    /* text-align: center; */
+
 }
 
 html{
     height: 100vh;
-    background-color:rgb(32, 32, 32);
+    background:linear-gradient(to right, rgb(27, 27, 27) 50% , rgb(27, 27, 27) 50%);
 }
-body{
+/* body{
     margin: 0px;
     margin-top: 50px;
     display: flex;
     justify-content: center; 
     align-items: center;
-}
+} */

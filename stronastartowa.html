@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!DOCTYPE html>
+<html lang="pl-PL">
+<head>
+<meta charset="UTF-8">
+<meta name= "description" content="opis naszej strony">
+<meta name= "author" content="Filip">
+<meta http-equiv= "X-Ua Compatibile" content="IE=edge,chrome=1">
+<meta name= "viewport" content="width=device-width, initial-scale=1">
+<title> Najlepsza strona kulinarna </title>
+<style>
+	html{
+    	background-color: grey;
+		
+	}
+	#d1{
+		position: sticky;
+		top: 0px;
+		color: rgb(0, 0, 0);
+		display: flex;
+		justify-content: center;
+		border: 2px solid black;
+		padding: 20px;
+		background-color: whitesmoke;
+		font-size: 20px;
+		font-family: arial black;
+	}
+
+	.menu{
+		width: 400px;
+		height: auto;
+		display: block;
+		margin: auto;
+	}
+	.nap{
+		color: black;
+		font-family: arial black;
+		display: flex;
+		justify-content: center;
+		margin-bottom: 10px;
+		text-decoration: none;
+	}
+	
+	
+	.boki{
+		/* position: fixed; */
+		top: 150px;
+		width: 350px;
+		height: 100%;
+		border: 2px solid black;
+		background-image: url('jedzenie.jpg');
+	}
+
+	a{
+		text-decoration: none;
+	}
+
+	a:hover{
+		text-decoration: underline ;
+	}
+	#flexmakler {
+		display: flex;
+		justify-content: space-between;
+	}
+
+</style>
+</head>
+<body>
+	<div id="d1">NOWOŚCI Z ŚWIATA KULINARNEGO</div>
+	<div id="flexmakler">
+		<div>
+			<div class="boki"></div>
+		</div>
+		<div>
+			<a class="nap" href="nalesniki.html;">1. PRZEPIS NA NAJLEPSZE PUSZYSTE NALESNIKI</a>
+			<img class="menu" src="nalesniki1.png" alt="nalesniort"/>
+			<br></br>
+			<a class="nap"  href="pascha.html">2. ROBERT MAKŁOWICZ - PROSTA PASCHA</a>
+			<img class="menu" src="pas1.jpg" alt="pass"/>
+			<br></br>
+			<a class="nap"  href="cytaty.html">3. CYTATY ROBERTA MAKŁOWICZA</a>
+			<img class="menu" src="maklowiczek.png" alt="makmak"/>
+			<br></br>
+			<a class="nap"  href="kcal.html">4. KALORYCZNOSC NAJPOPULARNIEJSZYCH WARZYW I OWOCÓW</a>
+			<img class="menu" src="warzywo.png" alt="warzywo1"/>
+			<br></br>
+		</div>
+		<div>
+			<div class="boki"></div>
+		</div>
+	</div>
+<br></br>
+
+<!-- dodac wiecej podstron -->
+</body>
+</html>
